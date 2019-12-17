@@ -1,19 +1,26 @@
 
 
+/* #global {
+    position: relative;
+    min-height: 100vh;
+}*/
 
+/*#globalContent {
+    padding-bottom: 2.5rem;
+}
+*/
+
+html, body {
+    height: 100%;
+}
 
 #wrap {
     margin: 0 auto;
     text-align: center;
     width: 960px;
     background-color: white;
+    
 }
-
- 
-body {
-    margin: 0 auto;
-    }
-
 
 #firstName {
     color: white;
@@ -26,7 +33,7 @@ body {
     line-height: 250%;
     text-align: center;
     
-}
+} 
 
 #menu {
     color: #777777;
@@ -52,30 +59,20 @@ hr {
 
 
 #backgroundTest {
-    background-image: url(/Users/georgeconnolly/Desktop/ucsd-bootcamp/homework/assets/images/round.png);
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-    padding: 50px 0 50px 0;
-    
-
+    background-image: url("https://lh3.googleusercontent.com/MtzMSUjbfaDQY8xgppp8r826LVuwgwCkTE9aMTfPdHC5OUWr5UcBB4ulo1O_mzdaC6MAkzeN9G_11dSYYZCNfUM1lZKQW9xOfO3gDmeGi9ZW8FysGaSUoRqUctnzDBxjPUu2CF7GbOVdn8WOQviSnopCBSrqraAm0CFro5iQSvor-a513LA2Q4eCi88oB5PIZmJxn_av7T0kHVngc5BNKykQJNR13g4kep_BcaN_YbTrqAZBYfMy2FdD0klkUoQbLshgItmWQ6gH-Q-Ef3gjC0kLbxJBF4nTJJAJ027dahF-Cv_scyWwDDSxS4nNqQ4vsdFahevNFQItM94j8938kSyzw-99t3Ss6K7jo4YmV8Q8ixY5CCuL7-syMcbz6bJ3AMOOth2qjon9IQqr0fao4jqLQaMLK0I2bE8PcTHNISWz95VFiWOYnCxo76YOoClTl4zCO8obfxbo9TKdClhyjxYZ6BmSosFxGhd59YPcmdFmRIO18Vei4PBUyKK8pTPLwixUuG9AEkpljz-A7URK5AZxbUT_VlWBdqZWPbf8kaiiX24eY10BP15A-57I1AeVEuNlV61OsC2xr43YSf3M8-xYb2k1wqsWIE0mocY-L8h_jb8RCISwHmSlwNWGEiVGMvFHpsktw0szLV0UzRydDma0S9tisXJfiQPRzWxFc4aRfyJ2PQmg=s400-no");
+    background-repeat: repeat;
+    padding: 70px;
+    height: 100%;
 }
 
 #wrap2 {
-    margin: 0 auto;
+    margin: 0px auto;
     width: 960px;
     background-color: white;
     border: #dddddd;
     border-style: solid;
     border-width: .01em;
     
-}
-
-img {
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin: 0px 15px 0px 15px;
 }
 
 #aboutMeHeading {
@@ -92,6 +89,39 @@ img {
     align-self: center;
 }
 
+#footerBox {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #666666;
+    height: 2.5rem;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 10px;
+    align-self: center;
+    bottom: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+body {
+    margin: 0 auto;
+}
+
+#robImage {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0px 15px 0px 15px;
+}
 p {
     color: #777777;
     text-align: left;
@@ -106,23 +136,11 @@ p {
 
 #footerLine {
     color: #4aaaa5;
-    
 }
 
-#footerBox {
-    margin-top: 50px;
-    width: 100%;
-    background-color: #666666;
-    height: 75px;
-    border-top-style: solid;
-    border-top-color: #4aaaa5;
-    border-top-width: 10px;
-    align-self: center;
-}
-#copyright {
-    text-align: center;
+
+#cr1 {
     color: white;
-    margin-top: 50px;
-
-    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
