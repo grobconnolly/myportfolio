@@ -7,15 +7,18 @@
 a {
     color: #777777;
 }
-html, body {
+
+html,
+body {
     height: 100%;
+
 }
 
 
 #wrap {
     margin: 0 auto;
     text-align: center;
-    width: 960px  
+    width: 960px
 }
 
 
@@ -29,7 +32,7 @@ html, body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 250%;
     text-align: center;
-} 
+}
 
 
 #menu {
@@ -42,7 +45,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 
@@ -65,8 +68,8 @@ hr {
 }
 
 
-#wrap2 {
-    margin: 0px auto;
+#portfolioWrap {
+    margin: 0 auto;
     width: 960px;
     background-color: #ffffff;
     border: #dddddd;
@@ -74,7 +77,7 @@ hr {
     border-width: .01em;
 }
 
-#aboutMeHeading {
+#portfolioHeading {
     clear: both;
     color: #4aaaa5;
     margin: 15px 0 15px 15px;
@@ -102,7 +105,7 @@ hr {
     bottom: 0;
     left: 0;
     right: 0;
-    
+
 }
 
 #copyright {
@@ -121,6 +124,7 @@ body {
     float: left;
     margin: 0px 15px 0px 15px;
 }
+
 p {
     color: #777777;
     text-align: left;
@@ -128,8 +132,8 @@ p {
     margin-right: 15px;
     word-spacing: 3px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5; 
-   
+    line-height: 1.5;
+
 }
 
 
@@ -154,36 +158,47 @@ p {
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #cccccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #cccccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
     background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif; 
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
     background-color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
     border-radius: 5px;
     border-color: #cccccc;
     background-color: #ffffff;
@@ -191,49 +206,68 @@ input[type=text], select, textarea {
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-  }
-    
-  /* Portfolio Porjects */ 
-
-#wrapMain {
-   display: inline-block;
-   display: flex;
-   color: purple;
-}   
-
-#hangman {
-      height: 150px;
-      width: 200px;
-      background-color: #4aaaa5;
-      float: left;
-      margin: 10px 15px 30px 15px;
-      background-image: url();
 }
 
-#rpg {
+
+/* start of portfolio css */
+
+.boxClass {
+    display: flex;
+    width: 540px;
+    height: 800px;
+    align-items: start;
+    justify-content: space-between;
+    text-align: center;
+}
+.portfolioTitle {
+    background: #4aaaa5;
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    right: 15px;
+    line-height: 40px;
+}
+
+#hangman {
     height: 150px;
     width: 200px;
-    background-color: red;
-    float: left;
+    margin: 10px 15px 30px 15px;
+    background-image: url(myportfolio/assets/images/hangman.jpg);
+    background-size: 100%;
 }
 
 #trivia {
     height: 150px;
     width: 200px;
-    background-color: yellow;
-    float: left;
+    margin: 10px 15px 30px 15px;
+    background-image: url(myportfolio/assets/images/trivia.jpg);
+    background-size: 100%;
+}
+
+#rock {
+    height: 150px;
+    width: 200px;
+    margin: 10px 15px 30px 15px;
+    background-image: url(myportfolio/assets/images/rps.jpg);
+    background-size: 100%;
+}
+
+#rpg {
+    height: 150px;
+    width: 200px;
+    margin: 10px 15px 30px 15px;
+    background-image: url(myportfolio/assets/images/rpg.jpg);
+    background-size: 100%;
 }
 
 #rutgers {
     height: 150px;
     width: 200px;
-    background-color: green;
-    float: left;
-}
-
-    #rock {
-    height: 150px;
-    width: 200px;
-    background-color: palevioletred;
-    float: left;
+    margin: 10px 15px 30px 15px;
+    background-image: url(myportfolio/assets/images/rutgers.jpg);
+    background-size: 100%;
 }

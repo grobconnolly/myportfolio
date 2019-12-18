@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,70 +9,97 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
+
 <body>
-    
-<!-- this div contains the header-->
-<div id="wrap">
-    
-    <header>
-        <!-- name in header-->
-        <h1 id="firstName">
-            Rob Connolly
-        </h1>
-        
+
+    <!-- this div contains the header-->
+    <div id="wrap">
+
+        <header>
+            <!-- name in header-->
+            <h1 id="firstName">
+                Rob Connolly
+            </h1>
+        </header>
         <!-- Header-->
-    <div id="menu">
-            
-        <span>
-            <a href="myportfolio/index.html">About</a>
-        </span>
+        <div id="menu">
 
-        <span>
-            <a href="myportfolio/portfolio.html"> Portfolio</a>
-        </span>
+            <span>
+                <a href="myportfolio/index.html">About</a>
+            </span>
 
-        <span>
-            <a href="myportfolio/contact.html">Contact</a>
-        </span>
-        
+            <span>
+                <a href="myportfolio/portfolio.html"> Portfolio</a>
+            </span>
+
+            <span>
+                <a href="myportfolio/contact.html">Contact</a>
+            </span>
+
+        </div>
     </div>
-</div>
-    </header>
-         
-    <!-- clear fix cleard float-->
-<hr id="clearfix">
-     
-    <!-- background image-->
-<div id="backgroundTest">
 
-    <!-- Wrap2 wraps about me section-->
-    <div id="wrap2">
-   
-        <!-- About Me Heading-->
-        <h2 id="aboutMeHeading">
-            Portfolio
-        </h2>
+    <!-- clear fix cleard float-->
+    <hr id="clearfix">
+
+    <!-- background image-->
+    <div id="backgroundTest">
+
+        <!-- Wrap2 wraps portfolio content section-->
+        <div id="portfolioWrap">
+
+            <!-- Portfolio Heading-->
+            <h2 id="portfolioHeading">
+                Portfolio
+            </h2>
             <!-- gray line in about me section-->
             <hr id="grayLine">
 
             <!-- Portfolio Form-->
-        <div id="wrapMain">
-            
-            <!-- hangman -->
-            <div id=hangman>
-                
+            <div id="wrapMain">
+
+                <div class="boxClass">
+                    <div id="row1">
+
+                        <div id="hangman">
+                            <p class="portfolioTitle">Hangman</p>
+                        </div>
+
+                        <div id="trivia">
+                            <p class="portfolioTitle">Trivia Game</p>
+                        </div>
+
+                        <div id="rock">
+                            <p class="portfolioTitle">Rock Paper Scissors</p>
+                        </div>
+                    </div>
+
+                    <div id="row2">
+                        <div id="rpg">
+                            <p class="portfolioTitle">RPG Game</p>
+                        </div>
+
+                        <div id="rutgers">
+                            <p class="portfolioTitle">Rutgers Info Widget</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
 
             </div>
-
+        </div>
+        <!-- Start of footer-->
+        <div id="footerBox">
+            <!-- Text for footer-->
+            <p id="cr1"> &copy; Copyright</p>
 
         </div>
-</div>
-    <!-- Start of footer-->
-    <div id="footerBox">
-        <!-- Text for footer-->
-        <p id="cr1"> &copy; Copyright</p>
-    
+    </div>
+    </div>
     </div>
 
 </body>
+
 </html>
