@@ -4,7 +4,9 @@
 }
 
 
-
+a {
+    color: #777777;
+}
 html, body {
     height: 100%;
 }
