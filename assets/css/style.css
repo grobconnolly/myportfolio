@@ -61,7 +61,7 @@ hr {
 
 
 #backgroundTest {
-    background-image: url("myportfolio/assets/images/round.png");
+    background-image: url("myportfolio/assets/images/swirl_pattern.png");
     background-repeat: repeat;
     padding: 70px;
     height: calc(100% - 87px);
