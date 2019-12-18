@@ -1,26 +1,21 @@
+* {
 
-
-/* #global {
-    position: relative;
-    min-height: 100vh;
-}*/
-
-/*#globalContent {
-    padding-bottom: 2.5rem;
+    box-sizing: border-box;
 }
-*/
+
+
 
 html, body {
     height: 100%;
 }
 
+
 #wrap {
     margin: 0 auto;
     text-align: center;
-    width: 960px;
-    background-color: white;
-    
+    width: 960px  
 }
+
 
 #firstName {
     color: white;
@@ -32,29 +27,31 @@ html, body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 250%;
     text-align: center;
-    
 } 
+
 
 #menu {
     color: #777777;
-    background-color: white;
+    background-color: #ffffff;
     width: 300px;
     height: 85px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: right;
-    line-height: 125px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
 
+
 hr {
     clear: both;
+    border-width: .03em;
     border-bottom-style: solid;
     margin: 0 auto;
     width: 100%;
-    align-self: center; 
+    align-self: center;
+    border-color: #777777;
 }
 
 
@@ -62,17 +59,18 @@ hr {
     background-image: url("https://lh3.googleusercontent.com/MtzMSUjbfaDQY8xgppp8r826LVuwgwCkTE9aMTfPdHC5OUWr5UcBB4ulo1O_mzdaC6MAkzeN9G_11dSYYZCNfUM1lZKQW9xOfO3gDmeGi9ZW8FysGaSUoRqUctnzDBxjPUu2CF7GbOVdn8WOQviSnopCBSrqraAm0CFro5iQSvor-a513LA2Q4eCi88oB5PIZmJxn_av7T0kHVngc5BNKykQJNR13g4kep_BcaN_YbTrqAZBYfMy2FdD0klkUoQbLshgItmWQ6gH-Q-Ef3gjC0kLbxJBF4nTJJAJ027dahF-Cv_scyWwDDSxS4nNqQ4vsdFahevNFQItM94j8938kSyzw-99t3Ss6K7jo4YmV8Q8ixY5CCuL7-syMcbz6bJ3AMOOth2qjon9IQqr0fao4jqLQaMLK0I2bE8PcTHNISWz95VFiWOYnCxo76YOoClTl4zCO8obfxbo9TKdClhyjxYZ6BmSosFxGhd59YPcmdFmRIO18Vei4PBUyKK8pTPLwixUuG9AEkpljz-A7URK5AZxbUT_VlWBdqZWPbf8kaiiX24eY10BP15A-57I1AeVEuNlV61OsC2xr43YSf3M8-xYb2k1wqsWIE0mocY-L8h_jb8RCISwHmSlwNWGEiVGMvFHpsktw0szLV0UzRydDma0S9tisXJfiQPRzWxFc4aRfyJ2PQmg=s400-no");
     background-repeat: repeat;
     padding: 70px;
-    height: 100%;
+    height: calc(100% - 87px);
+    
 }
+
 
 #wrap2 {
     margin: 0px auto;
     width: 960px;
-    background-color: white;
+    background-color: #ffffff;
     border: #dddddd;
     border-style: solid;
     border-width: .01em;
-    
 }
 
 #aboutMeHeading {
@@ -83,7 +81,7 @@ hr {
 
 #grayLine {
     margin: 15px auto;
-    color: #dddddd;
+    color: #777777;
     width: 930px;
     border-width: 1px;
     align-self: center;
@@ -93,7 +91,7 @@ hr {
     margin-top: 50px;
     width: 100%;
     background-color: #666666;
-    height: 2.5rem;
+    height: 4rem;
     border-top-style: solid;
     border-top-color: #4aaaa5;
     border-top-width: 10px;
@@ -143,4 +141,98 @@ p {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* contact us page CSS */
+
+#contentPadding {
+    background-image: url("https://lh3.googleusercontent.com/MtzMSUjbfaDQY8xgppp8r826LVuwgwCkTE9aMTfPdHC5OUWr5UcBB4ulo1O_mzdaC6MAkzeN9G_11dSYYZCNfUM1lZKQW9xOfO3gDmeGi9ZW8FysGaSUoRqUctnzDBxjPUu2CF7GbOVdn8WOQviSnopCBSrqraAm0CFro5iQSvor-a513LA2Q4eCi88oB5PIZmJxn_av7T0kHVngc5BNKykQJNR13g4kep_BcaN_YbTrqAZBYfMy2FdD0klkUoQbLshgItmWQ6gH-Q-Ef3gjC0kLbxJBF4nTJJAJ027dahF-Cv_scyWwDDSxS4nNqQ4vsdFahevNFQItM94j8938kSyzw-99t3Ss6K7jo4YmV8Q8ixY5CCuL7-syMcbz6bJ3AMOOth2qjon9IQqr0fao4jqLQaMLK0I2bE8PcTHNISWz95VFiWOYnCxo76YOoClTl4zCO8obfxbo9TKdClhyjxYZ6BmSosFxGhd59YPcmdFmRIO18Vei4PBUyKK8pTPLwixUuG9AEkpljz-A7URK5AZxbUT_VlWBdqZWPbf8kaiiX24eY10BP15A-57I1AeVEuNlV61OsC2xr43YSf3M8-xYb2k1wqsWIE0mocY-L8h_jb8RCISwHmSlwNWGEiVGMvFHpsktw0szLV0UzRydDma0S9tisXJfiQPRzWxFc4aRfyJ2PQmg=s400-no");
+    background-repeat: repeat;
+    padding: 70px;
+    height: 100%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #cccccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    border-color: #cccccc;
+    background-color: #ffffff;
+    padding: 20px;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+  }
+    
+  /* Portfolio Porjects */ 
+
+#wrapMain {
+   display: inline-block;
+   display: flex;
+   color: purple;
+}   
+
+#hangman {
+      height: 150px;
+      width: 200px;
+      background-color: #4aaaa5;
+      float: left;
+      margin: 10px 15px 30px 15px;
+      background-image: url();
+}
+
+#rpg {
+    height: 150px;
+    width: 200px;
+    background-color: red;
+    float: left;
+}
+
+#trivia {
+    height: 150px;
+    width: 200px;
+    background-color: yellow;
+    float: left;
+}
+
+#rutgers {
+    height: 150px;
+    width: 200px;
+    background-color: green;
+    float: left;
+}
+
+    #rock {
+    height: 150px;
+    width: 200px;
+    background-color: palevioletred;
+    float: left;
 }

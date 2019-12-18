@@ -4,74 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Me
-    </title>
+    <title>Rob Connolly's Portfolio</title>
+    <link rel="stylesheet" href="/Users/georgeconnolly/Desktop/ucsd-bootcamp/homework/myportfolio/assets/css/style.css">
+
 </head>
-<header>
-<!-- Here is the header where I have my name-->
-    <div id="name">
-        <h1>
+<body>
+    
+<!-- this div contains the header-->
+<div id="wrap">
+    
+    <header>
+        <!-- name in header-->
+        <h1 id="firstName">
             Rob Connolly
         </h1>
-    </div>
-
-
-    <div id="nameBackground">
-<!-- I created the div for the teal box as background for the name. I may want to create one more as a white background. We will look at this when we do css-->
-    </div>
-
-    <!--Menu bar div. I wrapped all three items in div. I will add links.-->
-    <div id="menuBar">
-        <p>
-            About  
-        </p>
         
-        <p> 
-            Portfolio
-        </p>
+        <!-- Header-->
+    <div id="menu">
+            
+        <span>
+            <a href="/Users/georgeconnolly/Desktop/ucsd-bootcamp/homework/myportfolio/index.html"> About</a>
+            </span>
+            
+            <span>
+                <a href="/Users/georgeconnolly/Desktop/ucsd-bootcamp/homework/myportfolio/portfolio.html"> Portfolio</a>
+            </span>
         
-        <p>
+            <span>
+                <a href="/Users/georgeconnolly/Desktop/ucsd-bootcamp/homework/myportfolio/contact.html">Contact</a>
+            </span>
+        
+    </div>
+</div>
+    </header>
+         
+    <!-- clear fix cleard float-->
+<hr id="clearfix">
+     
+    <!-- background image-->
+<div id="backgroundTest">
+
+    <!-- Wrap2 wraps about me section-->
+    <div id="wrap2">
+   
+        <!-- About Me Heading-->
+        <h2 id="aboutMeHeading">
             Contact
-        </p>
+        </h2>
+            <!-- gray line in about me section-->
+            <hr id="grayLine">
+
+            <!-- Contact Form-->
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="John Smith">
+              
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="example@gmail.com">
+              
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
     </div>
-
-</header>
-<body>
-
-        <!--White Background Box-->
-    <div id="contactWhiteBox">
-    </div>
-
-        <!--Contact Title-->
-    <div id="contactHead">
-        <h2>Contact</h2>
-    </div>
-
-    <div id="contactSilverLine">
-    </div>
-
-    <!--Contact Form-->
-    <form>
-        <form>
-            First name:<br>
-            <input type="text" name="firstname"><br>
-            Last name:<br>
-            <input type="email" name="email"><br>
-            Message:<br>
-            <input type="text" name="message"><br>
-            <input type="submit" name="submit">
-          </form>
-    </form>
-  
-    <!--Teal Bar on footer-->
-    <div id="tealBar">
-    </div>
-
-    <!--Footer section-->
-    <div id="footer">
-        <p>
-            Copyright &copy;
-        </p>
+</div>
+    <!-- Start of footer-->
+    <div id="footerBox">
+        <!-- Text for footer-->
+        <p id="cr1"> &copy; Copyright</p>
+    
     </div>
 
 </body>
