@@ -228,6 +228,8 @@ input[type=submit]:hover {
     align-items: flex-start;
     justify-content: space-between;
     text-align: center; */
+
+
 #boxTitleHangman {
     list-style: none;
     height: 150px;
@@ -235,8 +237,23 @@ input[type=submit]:hover {
     margin: 10px 15px 30px 15px;
     background-size: 100%;
     float: left;
-    background-image: url(assets/images/hangman.jpg);
-}
+    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/hangman.jpg);
+    }
+
+#hangmanText {
+    background: #4aaaa5;
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    right: 15px;
+    line-height: 40px;
+    }
+
+
 
 #boxTitleTrivia {
     list-style: none;
@@ -245,7 +262,22 @@ input[type=submit]:hover {
     margin: 10px 15px 30px 15px;
     background-size: 100%;
     float: left;
-}
+    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/trivia.jpg);
+    }
+
+#triviaText {
+    background: #4aaaa5;
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    right: 15px;
+    line-height: 40px;
+    }
+
 #boxTitleRock {
     list-style: none;
     height: 150px;
@@ -253,7 +285,23 @@ input[type=submit]:hover {
     margin: 10px 15px 30px 15px;
     background-size: 100%;
     float: left;
+    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rps.jpg);
 }
+
+#rockText {
+    background: #4aaaa5;
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    right: 15px;
+    line-height: 40px;
+
+    }
+
 #boxTitleRpg {
     list-style: none;
     height: 150px;
@@ -261,7 +309,22 @@ input[type=submit]:hover {
     margin: 10px 15px 30px 15px;
     background-size: 100%;
     float: left;
+    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rpg.jpg);
 }
+#rpgText {
+    background: #4aaaa5;
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    right: 15px;
+    line-height: 40px;
+    }
+
+
 #boxTitleRutgers {
     list-style: none;
     height: 150px;
@@ -269,7 +332,22 @@ input[type=submit]:hover {
     margin: 10px 15px 30px 15px;
     background-size: 100%;
     float: left;
+    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rutgers.jpg);
 }
+
+#rutgersText {
+    background: #4aaaa5;
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    right: 15px;
+    line-height: 40px;
+    }
+
 
 .portfolioTitle {
     background: #4aaaa5;
