@@ -228,7 +228,48 @@ input[type=submit]:hover {
     align-items: flex-start;
     justify-content: space-between;
     text-align: center; */
+#boxTitleHangman {
+    list-style: none;
+    height: 150px;
+    width: 200px;
+    margin: 10px 15px 30px 15px;
+    background-size: 100%;
+    float: left;
+    background-image: url(assets/images/hangman.jpg);
+}
 
+#boxTitleTrivia {
+    list-style: none;
+    height: 150px;
+    width: 200px;
+    margin: 10px 15px 30px 15px;
+    background-size: 100%;
+    float: left;
+}
+#boxTitleRock {
+    list-style: none;
+    height: 150px;
+    width: 200px;
+    margin: 10px 15px 30px 15px;
+    background-size: 100%;
+    float: left;
+}
+#boxTitleRpg {
+    list-style: none;
+    height: 150px;
+    width: 200px;
+    margin: 10px 15px 30px 15px;
+    background-size: 100%;
+    float: left;
+}
+#boxTitleRutgers {
+    list-style: none;
+    height: 150px;
+    width: 200px;
+    margin: 10px 15px 30px 15px;
+    background-size: 100%;
+    float: left;
+}
 
 .portfolioTitle {
     background: #4aaaa5;
