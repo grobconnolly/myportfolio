@@ -1,5 +1,7 @@
 
 <h1>My Portfoilio: Read Me</h1>
+
+![Image of Website](https://grobconnolly.github.io/myportfolio/assets/images/website-screenshot.png)
 <br>
 
 <h2><b><u>Table of Contents:</h2></b></u>
