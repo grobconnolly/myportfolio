@@ -8,7 +8,8 @@ a {
     color: #777777;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 
 }
@@ -230,17 +231,71 @@ input[type=submit]:hover {
     text-align: center; */
 
 
-#boxTitleHangman {
+.boxTitle {
     list-style: none;
     height: 150px;
     width: 200px;
-    margin: 10px 15px 30px 15px;
+    margin: 10px 0 10px 0;
     background-size: 100%;
-    float: left;
-    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/hangman.jpg);
-    }
+}
 
-#hangmanText {
+ul {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    background-color: white;
+    padding: 10px;
+}
+
+.boxText {
+    background: #4aaaa5;
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    right: 15px;
+    line-height: 40px;
+}
+
+#hangmanImage {
+    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/hangman.jpg);
+    background-size: 100%;
+    height: 150px;
+    width: 200px;
+}
+
+#rpgImage {
+    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rpg.jpg);
+    background-size: 100%;
+    height: 150px;
+    width: 200px;
+}
+
+#triviaImage {
+    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/trivia.jpg);
+    background-size: 100%;
+    height: 150px;
+    width: 200px;
+}
+
+#rutgersImage {
+    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rutgers.jpg);
+    background-size: 100%;
+    height: 150px;
+    width: 200px;
+}
+
+#rpsImage {
+    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rps.jpg);
+    background-size: 100%;
+    height: 150px;
+    width: 200px;
+}
+
+/*
+.hangmanText {
     background: #4aaaa5;
     width: 200px;
     height: 40px;
@@ -255,17 +310,17 @@ input[type=submit]:hover {
 
 
 
-#boxTitleTrivia {
+.boxTitleTrivia {
     list-style: none;
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
     background-size: 100%;
-    float: left;
+
     background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/trivia.jpg);
     }
 
-#triviaText {
+.triviaText {
     background: #4aaaa5;
     width: 200px;
     height: 40px;
@@ -278,17 +333,16 @@ input[type=submit]:hover {
     line-height: 40px;
     }
 
-#boxTitleRock {
+.boxTitleRock {
     list-style: none;
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
     background-size: 100%;
-    float: left;
     background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rps.jpg);
 }
 
-#rockText {
+.rockText {
     background: #4aaaa5;
     width: 200px;
     height: 40px;
@@ -302,16 +356,16 @@ input[type=submit]:hover {
 
     }
 
-#boxTitleRpg {
+.boxTitleRpg {
     list-style: none;
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
     background-size: 100%;
-    float: left;
+   
     background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rpg.jpg);
 }
-#rpgText {
+.rpgText {
     background: #4aaaa5;
     width: 200px;
     height: 40px;
@@ -325,17 +379,17 @@ input[type=submit]:hover {
     }
 
 
-#boxTitleRutgers {
+.boxTitleRutgers {
     list-style: none;
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
     background-size: 100%;
-    float: left;
+    
     background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rutgers.jpg);
 }
 
-#rutgersText {
+.rutgersText {
     background: #4aaaa5;
     width: 200px;
     height: 40px;
@@ -362,44 +416,47 @@ input[type=submit]:hover {
     line-height: 40px;
     }
 
-#hangmanBackground {
+.hangmanBackground {
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
     background-size: 100%;
-    float: left;
+    
 }
 
-#triviaBackground {
+.triviaBackground {
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
     background-size: 100%;
-    float: left;
+    
 }
 
-#rockBackground {
+.rockBackground {
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
     background-size: 100%;
-    float: left;
+    
 }
 
-#rpgBackground {
+.rpgBackground {
 
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
     background-size: 100%;
-    float: left;
+    
 }
 
-#rutgersBackground {
+.rutgersBackground {
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
     background-size: 100%;
-    float: left;
+    
 }
 
+
+
+*/
