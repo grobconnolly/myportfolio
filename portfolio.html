@@ -24,18 +24,18 @@
         <!-- Header-->
         <div id="menu">
 
-                <span>
-                        <a href="./index.html">About</a>
-                    </span>
-    
-                    <span>
-                        <a href="./portfolio.html"> Portfolio</a>
-                    </span>
-    
-                    <span>
-                        <a href="./contact.html">Contact</a>
-                    </span>
-    
+            <span>
+                <a href="./index.html">About</a>
+            </span>
+
+            <span>
+                <a href="./portfolio.html"> Portfolio</a>
+            </span>
+
+            <span>
+                <a href="./contact.html">Contact</a>
+            </span>
+
 
         </div>
     </div>
@@ -47,58 +47,62 @@
     <div id="backgroundTest">
 
         <!-- Wrap2 wraps portfolio content section-->
-        <div id="portfolioWrap">
+        <div class="contentBox">
 
             <!-- Portfolio Heading-->
-            <h2 id="portfolioHeading">
+            <h2 class="contentHeading">
                 Portfolio
             </h2>
             <!-- gray line in about me section-->
-            <hr id="grayLine">
+            <hr class="grayLine">
 
             <!-- Portfolio Form-->
-            <div id="wrapMain">
 
-                <div class="boxClass">
-                    <div id="row1">
 
-                        <div id="hangman">
-                            <p class="portfolioTitle">Hangman</p>
-                        </div>
 
-                        <div id="trivia">
-                            <p class="portfolioTitle">Trivia Game</p>
-                        </div>
+            <div id="row1"></div>
 
-                        <div id="rock">
+            <div id="hangman">
+                <div id="hangmanBackground" style="background-image: url('assets/images/hangman.jpg');">
+                    <p class="portfolioTitle">Hangman</p>
+                </div>
+
+                <div id="trivia">
+                    <div id="triviaBackground" style="background-image: url('assets/images/trivia.jpg');">
+                        <p class="portfolioTitle">Trivia Game</p>
+                    </div>
+
+                    <div id="rock">
+                        <div id="rockBackground" style="background-image: url('assets/images/rps.jpg');">
                             <p class="portfolioTitle">Rock Paper Scissors</p>
                         </div>
                     </div>
 
                     <div id="row2">
                         <div id="rpg">
-                            <p class="portfolioTitle">RPG Game</p>
+                            <div id="rpgBackground" style="background-image: url('assets/images/rpg.jpg');">
+                                <p class="portfolioTitle">RPG Game</p>
+                            </div>
+
+                            <div id="rutgers">
+                                <div id="rutgersBackground" style="background-image: url('assets/images/rutgers.jpg');">
+                                    <p class="portfolioTitle">Rutgers Info Widget</p>
+                                </div>
+                            </div>
                         </div>
 
-                        <div id="rutgers">
-                            <p class="portfolioTitle">Rutgers Info Widget</p>
-                        </div>
                     </div>
 
 
                 </div>
+                <!-- Start of footer-->
+                <div id="footerBox">
+                    <!-- Text for footer-->
+                    <p id="cr1"> &copy; Copyright</p>
 
-
+                </div>
             </div>
         </div>
-        <!-- Start of footer-->
-        <div id="footerBox">
-            <!-- Text for footer-->
-            <p id="cr1"> &copy; Copyright</p>
-
-        </div>
-    </div>
-    </div>
     </div>
 
 </body>

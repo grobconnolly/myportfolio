@@ -8,8 +8,7 @@ a {
     color: #777777;
 }
 
-html,
-body {
+html, body {
     height: 100%;
 
 }
@@ -18,9 +17,18 @@ body {
 #wrap {
     margin: 0 auto;
     text-align: center;
-    width: 960px
+    width: 960px;
 }
 
+.contentBox {
+    margin: 0 auto;
+    width: 960px;
+    height: 80%;
+    background-color: #ffffff;
+    border: #dddddd;
+    border-style: solid;
+    border-width: .01em;
+}
 
 #firstName {
     color: white;
@@ -61,7 +69,7 @@ hr {
 
 
 #backgroundTest {
-    background-image: url("./assets/images/swirl_pattern.png");
+    background-image: url(/assets/images/);
     background-repeat: repeat;
     padding: 70px;
     height: calc(100% - 87px);
@@ -77,13 +85,13 @@ hr {
     border-width: .01em;
 }
 
-#portfolioHeading {
+.contentHeading {
     clear: both;
     color: #4aaaa5;
     margin: 15px 0 15px 15px;
 }
 
-#grayLine {
+.grayLine {
     margin: 15px auto;
     color: #777777;
     width: 930px;
@@ -211,14 +219,17 @@ input[type=submit]:hover {
 
 /* start of portfolio css */
 
-.boxClass {
+/*
+#boxClass {
+    
     display: flex;
     width: 540px;
     height: 800px;
-    align-items: start;
+    align-items: flex-start;
     justify-content: space-between;
-    text-align: center;
-}
+    text-align: center; */
+
+
 .portfolioTitle {
     background: #4aaaa5;
     width: 200px;
@@ -230,44 +241,46 @@ input[type=submit]:hover {
     top: 100px;
     right: 15px;
     line-height: 40px;
-}
+    }
 
-#hangman {
+#hangmanBackground {
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
-    background-image: url(myportfolio/assets/images/hangman.jpg);
     background-size: 100%;
+    float: left;
 }
 
-#trivia {
+#triviaBackground {
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
-    background-image: url(myportfolio/assets/images/trivia.jpg);
     background-size: 100%;
+    float: left;
 }
 
-#rock {
+#rockBackground {
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
-    background-image: url(myportfolio/assets/images/rps.jpg);
     background-size: 100%;
+    float: left;
 }
 
-#rpg {
+#rpgBackground {
+
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
-    background-image: url(myportfolio/assets/images/rpg.jpg);
     background-size: 100%;
+    float: left;
 }
 
-#rutgers {
+#rutgersBackground {
     height: 150px;
     width: 200px;
     margin: 10px 15px 30px 15px;
-    background-image: url(myportfolio/assets/images/rutgers.jpg);
     background-size: 100%;
+    float: left;
 }
+
