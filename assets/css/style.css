@@ -260,27 +260,27 @@ ul {
 }
 
 #hangmanImage {
-    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/hangman.jpg);
+    background-image: url("../images/hangman.jpg");
     background-size: 100%;
     height: 150px;
     width: 200px;
 }
 
 #rpgImage {
-    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rpg.jpg);
+    background-image: url("../images/rpg.jpg");
     background-size: 100%;
     height: 150px;
     width: 200px;
 }
 #triviaImage {
-    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/trivia.jpg);
+    background-image: url("../images/trivia.jpg");
     background-size: 100%;
     height: 150px;
     width: 200px;
 }
 
 #rutgersImage {
-    background-image: url(https://grobconnolly.github.io/myportfolio/assets/images/rutgers.jpg);
+    background-image: url("../images/rutgers.jpg");
     background-size: 100%;
     height: 150px;
     width: 200px;
